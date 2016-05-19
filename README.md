@@ -10,5 +10,11 @@ and it will also be jQuery compatible.
 it will be reusable code and will not clash with any other frameworks you are using
 and it will use a "Easy to type" method such as G$()
 
-#in the lastest GreetR update
-working all fine!
+#update 1 
+all working
+
+# update 2 in the lastest GreetR update
+working all fine! just need jQuery support
+
+#update 3 jQuery support added 
+Jquery support added and working!
