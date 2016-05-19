@@ -1,0 +1,22 @@
+//gets a new object 9the architecture allows us to not have to use the "new" keyword here
+var g = G$("George", "Larvin", "En");
+
+//example of the chainable that we can do below
+g.greet().setLang("Es").greet(true).log();
+g.greet();
+
+//lets us use out object on the clik of the login button
+$("#login").click(function(){
+	
+	//reate a new "GreetR" object (lets pretend we know the name from the login)
+	var loginGtr = G$("George", "Larvin");
+	
+	//hide the login on the screen
+	$("#logindiv").hide();
+	
+	//fire off an HTML greeting, passing the "#greeting" as the selector and 
+	//the chose language and log the welcome as well
+	loginGtr.setLang($("#lang").val()).HTMLGreeting("#greeting", true).log();
+	
+});
+
