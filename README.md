@@ -18,3 +18,6 @@ working all fine! just need jQuery support
 
 #update 3 jQuery support added 
 Jquery support added and working!
+
+#All done 
+all featres working fine and all code commented incase I come back and add more features.
