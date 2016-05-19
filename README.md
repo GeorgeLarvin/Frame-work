@@ -11,5 +11,4 @@ it will be reusable code and will not clash with any other frameworks you are us
 and it will use a "Easy to type" method such as G$()
 
 #in the lastest GreetR update
-its not working propely you have to use setLang to get the no formal greet to work 
-not sure why
+working all fine!
